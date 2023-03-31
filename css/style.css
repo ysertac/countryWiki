@@ -6,25 +6,23 @@
 
 body {
     height: 100vh;
-    position: relative;
     background: radial-gradient(circle, red, green);
 }
 
 footer {
-    position: absolute;
-    width: 100vw;
-    bottom: 100px;
-    overflow: hidden;
+    margin-top: 2rem;
 }
 
 footer .my_social {
     text-align: center;
+    
 }
 
 footer a i {
     color: aqua;
     font-size: 50px;
     transition: 1s;
+    margin-bottom: 3rem;
 }
 
 footer a i:hover {
@@ -33,6 +31,13 @@ footer a i:hover {
 
 #neighbours .card {
     cursor: pointer;
+}
+#cardDetails {
+    background: linear-gradient(to left, aqua, greenyellow, lime);
+}
+
+#borders {
+    background: linear-gradient(to right, dimgrey, blue, dimgrey);
 }
 
 @media (width < 568px) {
