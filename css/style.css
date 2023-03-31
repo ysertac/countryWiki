@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    background: radial-gradient(circle, red, green);
+}
+
+footer {
+    position: absolute;
+    width: 100vw;
+    bottom: 100px;
+    overflow: hidden;
+}
+
+footer .my_social {
+    text-align: center;
+}
+
+footer a i {
+    color: aqua;
+    font-size: 50px;
+    transition: 1s;
+}
+
+footer a i:hover {
+    color: lime;
+}
+
+#neighbours .card {
+    cursor: pointer;
+}
+
+@media (width < 568px) {
+    #borders .card {
+        margin-bottom: 20px;
+    }
+    
+    #borders img {
+        height: 200px;
+    }
+}
